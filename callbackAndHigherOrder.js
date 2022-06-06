@@ -211,7 +211,7 @@ var users = [
 */
 
 // CODE HERE
-
+// trim remove all the white space
 /*
   Now that you have addingFactory, you can create other
   functions from it. 

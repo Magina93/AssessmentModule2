@@ -117,7 +117,7 @@ class manager extends Employee{
 */
 
 //CODE HERE
-let manager1=new manager("Winston", "weekday mornings", ["cece", "schmidt"])
+let Manager=new manager("Winston", "weekday mornings", ["cece", "schmidt"])
 
 /*
     Call the `getEmployees` method on the
@@ -125,7 +125,7 @@ let manager1=new manager("Winston", "weekday mornings", ["cece", "schmidt"])
 */
 
 //CODE HERE
-manager1.getemployees()
+Manager.getemployees()
 /*
     Call the `addEmployee` method on the 
     `manager` object passing in the string 
@@ -133,7 +133,7 @@ manager1.getemployees()
 */
 
 //CODE HERE 
-manager1.addEmployee("Coach")
+Manager.addEmployee("Coach")
 /*
     Call the `getEmployees` method on the
     `manager` object again to confirm 
@@ -141,5 +141,5 @@ manager1.addEmployee("Coach")
 */
 
 //CODE HERE
-manager1.getemployees()
-console.log(manager1)
+Manager.getemployees()
+console.log(Manager)

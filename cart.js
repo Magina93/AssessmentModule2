@@ -58,8 +58,8 @@ const summedPrice = cart.reduce(function (accumulator, currentValue) {
 
 //CODE HERE
 function calcFinalPrice (cartTotal, couponValue,tax){
-    let tax1=cartTotal*tax
-     return (tax1+cartTotal-couponValue)
+    let total=cartTotal+(tax*cartTotal)-couponValue
+     return total
    }
    let yo = calcFinalPrice(80, 5, .06)
    console.log(yo)
@@ -96,3 +96,10 @@ function calcFinalPrice (cartTotal, couponValue,tax){
 */
 
 //CODE HERE
+ const custObj={
+     name: 'Maginele',
+     address: 'pleasant grove',
+     balance: 10,
+     loyalCustomer: true
+ }
+ console.log(custObj)
